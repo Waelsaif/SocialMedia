@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom'
 function Navbar() {
 
   return (
-    <div className='w-full bg-white transition duration-300 ease-linear dark:bg-neutral-800 dark:text-white sticky top-0 z-50 shadow-md'>
+    <div className='w-full  bg-white text-gray-800 transition duration-300 ease-linear dark:bg-neutral-800 dark:text-white sticky top-0 z-50 shadow-md'>
       <div className='w-11/12 mx-auto py-3 flex justify-between'>
         <div className='flex items-center gap-3'>
           <Link to='/'>
             <h1 className='text-2xl'>Twitter</h1>
           </Link>
         </div>
-        <div className='flex-1 '>
+        <div className='flex-1 hidden md:block'>
           <form className=' w-1/2 mx-auto'>
             <div className='bg-zinc-200 dark:bg-neutral-400 flex items-center gap-3 p-2 rounded-lg mx-auto'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gray-400 dark:text-neutral-800">

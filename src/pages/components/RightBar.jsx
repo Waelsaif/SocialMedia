@@ -1,14 +1,9 @@
 import React from 'react'
-
+import TrendingSection from './TrendingSection'
 function RightBar() {
   return (
-    <div className='w-1/5 py-5 hidden md:block bg-white dark:bg-neutral-800  dark:text-white shadow-md sticky top-14 h-[100vh] transition duration-300 ease-linear border-l-[0.05px] border-gray-400'>
-      <div className='w-11/12 mx-auto'>
-        
-        <div>
-          trending
-        </div>
-      </div>
+    <div className='w-1/5 hidden lg:block sticky top-14 h-screen transition duration-300 ease-linear border-gray-400 bg-white text-gray-500 dark:bg-neutral-800 dark:text-gray-300'>
+      <TrendingSection />
     </div>
   )
 }
